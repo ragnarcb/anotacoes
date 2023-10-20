@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cafeteria</title>
+</head>
+
+<body>
+    <header>
+        <a href="#home"><img src="./img/logo.jpg" alt=""></a>
+        <a href="#home">
+            <h1>Cafeteria Melo</h1>
+        </a>
+        <a href="#home">
+            <h4>O melhor café da cidade</h4>
+        </a>
+        <hr>
+        <section class="links">
+            <ul>
+                <a href="#home">
+                    <li class="btn">home</li>
+                </a>
+                <a href="#sobre">
+                    <li class="btn">Nossa história</li>
+                </a>
+                <a href="#cardapio">
+                    <li class=btn>Menu de cafés</li>
+                </a>
+                <a href="#galeria">
+                    <li class="btn">Galeria</li>
+                </a>
+                <a href="#contato">
+                    <li class="contato">Contato</li>
+                </a>
+            </ul>
+        </section>
+        <section class="redes">
+            <h2>Nossa Redes Sociais</h2>
+            <div class="social">
+                <a href="https://facebook.com" class="btn btn-social">
+                    <img class="img-social" src="./img/facebook.svg" alt="">
+                </a>
+                <a href="fttps://twitter.com" class="btn btn-social">
+                    <img class="img-social" src="./img/twitter.svg" alt="">
+                </a>
+                <a href="https://instagram" class="btn btn-social">
+                    <img class="img-social" src="./img/instagram.svg" alt="">
+                </a>
+            </div>
+        </section>
+    </header>
+    <header>
+        <main class="principal">
+            <section id="home">
+                <div class="home-superior">
+                    <img class="img-superior" src="./img/home-superior.jpg" alt="">
+                </div>
+                <div class="home-inferior">
+                    <img class="img-inferior" src="./img/home-inferior2.jpg" alt="">
+                </div>
+            </section>
+            <section id="sobre">
+                <h2>Cafeteria Florianópolis: O Sabor da Ilha</h2>
+
+                <p>Desfrute de momentos de puro prazer na nossa cafeteria em Florianópolis, onde o aroma do café fresco
+                    se mistura com a brisa marinha. Oferecemos uma seleção cuidadosamente escolhida de grãos locais,
+                    garantindo que cada xícara conte uma história única da ilha mágica.</p>
+                <p>Nossa cafeteria é um verdadeiro refúgio para os amantes do café em Florianópolis. Com um cardápio que
+                    vai além do café, você pode saborear deliciosos quitutes da culinária local, enquanto observa o
+                    movimento tranquilo da cidade e o oceano que se estende diante de nossos janelas.</p>
+                <p>Em nossa cafeteria, a cultura de Florianópolis encontra a tradição do café. Deixe-se envolver pela
+                    energia da Ilha da Magia enquanto desfruta de nossas especialidades de café, preparadas com paixão e
+                    cuidado.</p>
+            </section>
+            <section id="cardapio">
+                <h2>Nossos Cafés</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Café Preto</td>
+                            <td>café feito com grãos arábico do tipo acaiá</td>
+                            <td>5,00</td>
+                        </tr>
+                        <tr>
+                            <td>espresso</td>
+                            <td>cafe espresso com grãos arabicos do tipo acaiá</td>
+                            <td>10,00</td>
+                        </tr>
+                        <tr>
+                            <td>cappuccino</td>
+                            <td>cafe espresso com grãos arabicos do tipo acaiá</td>
+                            <td>15,00</td>
+                        </tr>
+                        <tr>
+                            <td>cafe gelado</td>
+                            <td>cafe feito com grãos arabicos do tipo, gelo e leite</td>
+                            <td>30,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="galeria">
+                <h2>galeria dos nossos cafes e do nosso ambiente</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laborum commodi explicabo enim nulla,
+                    provident dolorem, ex, distinctio maxime laudantium nihil doloremque ipsum! Neque, quaerat nobis.
+                    Cupiditate mollitia voluptates amet.</p>
+                <div class="galeri-imagens">
+                    <div class="imagem1"><img src="img/galeria1.jpg" alt=""></div>
+                    <div class="imagem2"><img src="img/galeria2.jpg" alt=""></div>
+                    <div class="imagem3"><img src="img/galeria3.jpg" alt=""></div>
+                    <div class="imagem4"><img src="img/galeria4.jpg" alt=""></div>
+                    <div class="imagem5"><img src="img/galeria5.jpg" alt=""></div>
+                    <div class="imagem6"><img src="img/galeria6.jpg" alt=""></div>
+                    <div class="imagem7"><img src="img/galeria7.jpg" alt=""></div>
+                    <div class="imagem8"><img src="img/galeria8.jpg" alt=""></div>
+                </div>
+            </section>
+            <section id="contato">
+                <h2>Entre em contato conosco!</h2>
+                <form action="">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="input" type="text" name="nome" id="nome">
+                    </div>
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="input" type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone:</label>
+                        <input type="input" type="tel" name="telefone" id="telefone">
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea name="mensagem" id="mensagem" cols="100" rows="5"></textarea>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </header>
+</body>
+
+</html>
