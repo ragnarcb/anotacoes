@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Oswald|Satisfy&display=swap');
+ 
+:root{
+ --cor-fundo: #505050;
+ --cor-fundo-lateral: #3d3833;
+ --cor-fundo-principal-claro: #faf3eb;
+ --cor-fundo-tabela: #8d847b;
+ --cor-fundo-linha-tabela-principal: #c7b9a9;
+ --cor-fundo-linha-tabela-secundaria: #faf3eb;
+ --cor-fonte-branco: #ffffff;
+ --cor-fonte-preto: #000000;
+ --cor-fonte-secundaria: #8d847b;
+ --cor-hover: #8d847b;
+ --cor-lateral-linha: #c7b9a9;
+ --cor-borda: #000000;
+ --cor-destaque: #e88f2a;
+ --fonte: 'Oswald', sans-serif;
+}
