@@ -16,3 +16,35 @@
  --cor-destaque: #e88f2a;
  --fonte: 'Oswald', sans-serif;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--fonte);
+}
+
+body {
+    display: flex;
+    background-color: var(--cor-fundo);
+}
+
+.lateral {
+    width:  15%;
+    height: 100vh;
+    color: var(--cor-fonte-branco);
+    text-align: center;
+    position: fixed;
+    background-color:  var(--cor-fundo-lateral);
+}
+
+.logo{
+    margin: 15px 0px;
+    padding: 5px 0px;
+    border-radius: 50%;
+}
+
+.lateral h1 {
+    
+}
