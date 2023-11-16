@@ -1,0 +1,110 @@
+:root {
+    --fonte-titulo: "Lato", sans-serif;
+    --fonte-texto: "Kalam", cursive;
+    --cor-principal: #112D4E;
+    --cor-secundaria: #3F72AF;
+    --cor-tercearia: #DBE2EF;
+    --cor-fonte: #F9F7F7;
+    --cor-preto: #000000;
+    --cor-fundo: linear-gradient(to bottom, var(--cor-secundaria) 0%, var(--cor-principal) 100%);
+  }
+  
+  /* Estilo para o corpo da página */
+  body {
+    font-family: var(--fonte-texto);
+    background: var(--cor-fundo);
+    margin: 0;
+    padding: 0;
+    color: var(--cor-fonte);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Estilos para o título do cadastro */
+  .titulo-cadastro {
+ 
+    color: var(--cor-fonte);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .titulo-cadastro h1 {
+    font-size: 24px;
+    font-family: var(--fonte-titulo);
+  }
+  
+  .titulo-cadastro h4 {
+    font-size: 14px;
+    font-family: var(--fonte-texto);
+  }
+
+  .usuario{
+    display: flex;
+    margin-bottom: 20;
+  }
+  
+  /* Estilos para a seção de cadastro de usuário */
+  .cadastro-usuario {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .cadastro-usuario2 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+  
+  
+  .input-registrar {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .input-registrar label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .input-cadastro {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--cor-tercearia);
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  /* Estilo para separar as duas fileiras de inputs */
+  .input-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Espaçamento entre as duas fileiras de inputs */
+  .input-row:not(:first-child) {
+    margin-top: 20px;
+  }
+  
+  .btn_entrar {
+    background-color: #007bff;
+    border-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 20rem;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20rem;
+}
